@@ -1,0 +1,13 @@
+Tags are messages that the bot will repeat inside an embed on demand. This is useful for important information or information that needs to be repeated often.
+
+Use a tag
+``?tag <tag>``
+
+Create a tag
+``?tags create <tag> [<body>]``
+
+Delete a tag
+``?tags delete <tag>``
+
+List your tags
+``?tags ls``

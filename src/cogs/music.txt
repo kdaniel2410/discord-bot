@@ -1,0 +1,12 @@
+I can play music from YouTube or Soundcloud as long as you provide an appropriate URL.
+
+Play a song
+``?play <url>``
+
+Other commands
+``?clear``
+``?disconnect``
+``?pause``
+``?resume``
+``?skip``
+``?stop``

@@ -1,0 +1,11 @@
+version: '3'
+services:
+  bot:
+    build: ./src
+    container_name: bot
+    environment:
+      - BOT_TOKEN=YOUR_BOT_TOKEN_HERE
+      - DATA_DIR=/data
+    image: bot
+    volumes:
+      - ./data:/data
